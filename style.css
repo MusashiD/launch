@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+
+  overflow: overlay;
+}
+html {
+  /* chrome://flags/#smooth-scrolling */
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  font-size: 62.5%;
+  --sub--colors: hsl(0, 0%, 78%);
+  --time--color: hsl(245, 8%, 32%);
+}
+
+.display-time {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+
+  gap: 9.1rem;
+  margin-top: 26rem;
+  font-size: 1.4rem;
+  margin-left: 15.2rem;
+
+  line-height: 2.1rem;
+  position: absolute;
+  text-transform: capitalize;
+  color: var(--sub--colors);
+}
+
+.timer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 7.2rem;
+  margin-top: 28rem;
+  margin-left: 12.3rem;
+
+  position: absolute;
+  color: var(--time--color);
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+
+  margin-top: 40.5rem;
+  font-size: 1.4rem;
+  margin-left: 19.6rem;
+
+  line-height: 2.1rem;
+
+  color: var(--sub--colors);
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  color: hsl(243, 100%, 69%);
+  margin-left: 12.7rem;
+  margin-top: 18.7rem;
+  letter-spacing: 0.5rem;
+  position: absolute;
+}
+
+.rocket {
+  margin-left: 70rem;
+  margin-top: 15rem;
+  position: absolute;
+}
+
+button {
+  margin-left: 29rem;
+  margin-top: 47.5rem;
+  position: absolute;
+  width: 16rem;
+  height: 4.6rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  background: #6c63ff;
+  box-shadow: none;
+}
+
+.bottom {
+  position: absolute;
+  margin-top: 54.2rem;
+  margin-right: auto;
+  width: 100vw;
+}
+.top {
+  width: 100vw;
+}
